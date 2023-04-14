@@ -9,7 +9,7 @@ const gallery = document.querySelector('.gallery');
 const addtoGallery = galleryItems
   .map(
     galleryItem =>
-      `<li><a class="gallery__item" href="${galleryItem.original}">
+      `<li class="gallery__link"><a class="gallery__item" href="${galleryItem.original}">
     <img class="gallery__image" src="${galleryItem.preview}" alt="${galleryItem.description}" />
 </a></li>
     `
